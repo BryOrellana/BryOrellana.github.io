@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+body {
+    background-color: #222629;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 25px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+.menu li:hover{
+    background: #def2f1;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    border-radius: 50%;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 700px;
+}
+
+hr {
+    margin-bottom: 45px;
+    border:2px solid #3aafa9;
+}
+
+a {
+    text-decoration: none;
+    color: #3aafa9;
+    margin: 25px;
+}
+
+img {
+    width: 24em;
+    height: 24em;
+    align-self: center;
+}
+
+#Dia1 {
+    display: block;
+}
+
+#Dia2 {
+    display: none;
+}
+
+#Dia3 {
+    display: none;
+}
+
+#Dia4 {
+    display: none;
+}
+
+#Dia5 {
+    display: none;
+}
+
+#logobtn{
+    margin-right: 550px;
+    margin-bottom: -8px;
+    margin-top: -4px;
+    font-size: 35px;
+}
